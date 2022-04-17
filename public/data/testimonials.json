@@ -1,0 +1,25 @@
+{
+    "testimonials": [
+        {
+            "name": "DR. Name X. Y. Z",
+            "description":
+              "This is the 1st sample of testimonial. The Project is about final year for college. testimonials are different from reviews because review are generally unguided and are written directly by the customer. Testimonials can help build trust and credibility with your customers. Companies usually display them on the front page of their website.",
+            "designation": "Principal",
+            "src": "/logo192.png"
+        },
+        {
+            "name": "DR. Name X. Y. Z",
+            "description":
+              "This is the 2nd sample of testimonial. The Project is about final year for college. testimonials are different from reviews because review are generally unguided and are written directly by the customer. Testimonials can help build trust and credibility with your customers. Companies usually display them on the front page of their website.",
+            "designation": "Engineer",
+            "src": "/logo192.png"
+        },
+        {
+            "name": "DR. Name X. Y. Z",
+            "description":
+              "This is the 3rd sample of testimonial. The Project is about final year for college. testimonials are different from reviews because review are generally unguided and are written directly by the customer. Testimonials can help build trust and credibility with your customers. Companies usually display them on the front page of their website.",
+            "designation": "Scientist",
+            "src": "/logo192.png"
+        }
+    ]
+}

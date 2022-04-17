@@ -1,0 +1,132 @@
+.headerText{
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 25px 0;
+  font-family: 'Tahoma Regular', sans-serif;
+}
+
+.cardBox:hover .card {
+  transform: rotateY(180deg);
+}
+.cardBox .card .front img{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card {
+  background: #009ddb;
+  cursor: pointer;
+  height: 440px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+  border-radius: 10px;
+}
+
+.card span {
+  padding: 15px 0;
+}
+
+.card .front,
+.card .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: 'Tahoma Regular', sans-serif;
+}
+.card .front p,
+.card .back p{
+  font-size: 20px;
+  padding-bottom: 7px;
+}
+
+.card .front img {
+  width: 65%;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+
+.card .back {
+  transform: rotateY(180deg);
+}
+
+.card .back a {
+  padding: 0.3em 0.5em;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+
+.card .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+
+@-webkit-keyframes giro {
+  from {
+      transform: rotateY(180deg);
+  }
+
+  to {
+      transform: rotateY(0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+      transform: rotateY(180deg);
+  }
+
+  to {
+      transform: rotateY(0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  img{
+      width:30%
+  }
+  .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+  }
+
+  .card {
+    height: 360px;
+  }
+
+  .cardBox:last-child {
+      margin-bottom: 3%;
+  }
+  .boxesContainer {display: flex;
+  flex-direction: column;}
+}
+
+@media screen and (max-width: 480px) {
+  img{
+      width:40%
+  }
+  .cardBox {
+      width: 94.5%;
+  }
+
+  .card {
+      height: 360px;
+  }
+  .boxesContainer {display: flex;
+    flex-direction: column;}
+}

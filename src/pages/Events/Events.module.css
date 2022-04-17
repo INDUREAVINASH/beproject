@@ -1,0 +1,106 @@
+
+.heading{
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: 'Tahoma Bold', sans-serif;
+}
+
+.eventsCard {
+    width: 22%;
+    background-color: #0eaaec;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Tahoma Regular', sans-serif;
+    margin: 0.6em 0.8em !important;
+    font-size: 18px;
+}
+.eventsCard:hover{
+    background-color: #22b0e9;
+    transform: scale(1.02);
+    transition: .5s ease-in-out;
+}
+
+.img{
+    height: 140px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+.cardTitle{
+    font-weight: bold;
+}
+.dateTime{
+    text-align: right;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:700px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+.box{
+    width: 80%;
+    min-height: 50vh;
+    top: 20px;
+    position: relative;
+    background-color: #009ddb;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    color: #fff;
+}
+.left {
+    width: 40%;
+}
+.left .img{
+    height: 200px !important;
+}
+.title{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.right{
+    padding: 20px 30px;
+    width: 60%;
+}
+.button{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.gallerImg{
+    width: 23%;
+    margin: 1%;
+    border: 1px solid #333;
+    height: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+}
+
+
+@media screen and (max-width: 992px) {
+    .eventsCard{
+        width: 30%;
+        margin: 0.5em !important;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .eventsCard{
+        width: 45%;
+        margin: 0.5em !important;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .eventsCard{
+        width: 95%;
+        margin: 0.5em !important;
+    }
+}

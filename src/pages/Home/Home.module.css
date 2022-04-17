@@ -1,0 +1,102 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.homeContainer{
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card{
+    width: 80%;
+    background: url('../../assets/images/Border.png');
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    margin: auto;
+}
+.cardThumb{
+  width: 70%;
+  padding: 10px 30px;
+  margin: auto;
+}
+
+
+.clientImg{
+  width: 90%;
+  border-radius: 50%;
+  margin: auto auto;
+}
+
+.cardBody{
+  width:120%;
+  margin-left: 10px;
+  
+}
+
+.review{
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: 'Tahoma Regular', 'sans-serif';
+}
+
+
+.rating{
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  bottom: 0;
+  font-family: 'Tahoma Bold', sans-serif;
+}
+.designation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-right: 2rem;
+  
+}
+span{
+ margin-left: auto;
+}
+@media (max-width:800px) {
+  
+  .wrapper{
+    width: 50%;
+    margin: auto;
+    min-width: 50%;
+  }
+  .card{
+    flex-direction: column;
+    background-image: none;
+  }
+  .cardThumb{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .cardBody{
+    width: 100%;
+    min-height: auto;
+    margin-left: 0;
+  }
+  
+}
+
+
+.nextIcon{
+  font-size: 300px;
+  color: #0570a3;
+  right: 60px;
+  position: relative;
+}

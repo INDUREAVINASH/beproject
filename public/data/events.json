@@ -1,0 +1,64 @@
+{
+    "events": [
+        {
+            "id":1,
+            "title":"Title",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempore ex voluptatum a aliquid tenetur similique blanditiis facilis officiis, culpa accusamus! Aut possimus tempora mollitia corporis, totam natus. Maxime, consectetur incidunt placeat eius deleniti recusandae.",
+            "guests":"D. Y. Patil",
+            "links":"",
+            "imgURL":"/logo192.png",
+            "dateTime": "11/12/2022",
+            "status":"present"
+        },
+        {
+            "id":2,
+            "title":"Title",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempore ex voluptatum a aliquid tenetur similique blanditiis facilis officiis, culpa accusamus! Aut possimus tempora mollitia corporis, totam natus. Maxime, consectetur incidunt placeat eius deleniti recusandae.",
+            "guests":"D. Y. Patil",
+            "links":"",
+            "imgURL":"/logo192.png",
+            "dateTime": "11/12/2022",
+            "status":"past"
+        },
+        {
+            "id":3,
+            "title":"Title",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempore ex voluptatum a aliquid tenetur similique blanditiis facilis officiis, culpa accusamus! Aut possimus tempora mollitia corporis, totam natus. Maxime, consectetur incidunt placeat eius deleniti recusandae.",
+            "guests":"D. Y. Patil",
+            "links":"",
+            "imgURL":"/logo192.png",
+            "dateTime": "11/12/2022",
+            "status":"future"
+        },
+        {
+            "id":4,
+            "title":"Title",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempore ex voluptatum a aliquid tenetur similique blanditiis facilis officiis, culpa accusamus! Aut possimus tempora mollitia corporis, totam natus. Maxime, consectetur incidunt placeat eius deleniti recusandae.",
+            "guests":"D. Y. Patil",
+            "links":"",
+            "imgURL":"/logo192.png",
+            "dateTime": "11/12/2022",
+            "status":"present"
+        },
+        {
+            "id":5,
+            "title":"Title",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempore ex voluptatum a aliquid tenetur similique blanditiis facilis officiis, culpa accusamus! Aut possimus tempora mollitia corporis, totam natus. Maxime, consectetur incidunt placeat eius deleniti recusandae.",
+            "guests":"D. Y. Patil",
+            "links":"www.google.com",
+            "imgURL":"/logo192.png",
+            "dateTime": "11/12/2022",
+            "status":"present"
+        },
+        {
+            "id":6,
+            "title":"Title",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempore ex voluptatum a aliquid tenetur similique blanditiis facilis officiis, culpa accusamus! Aut possimus tempora mollitia corporis, totam natus. Maxime, consectetur incidunt placeat eius deleniti recusandae.",
+            "guests":"D. Y. Patil",
+            "links":"",
+            "imgURL":"/logo192.png",
+            "dateTime": "11/12/2022",
+            "status":"present"
+        }
+    ]
+}

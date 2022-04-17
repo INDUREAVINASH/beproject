@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "batch":"Batch 2022",
+            "name": "Name LastName",
+            "department": "Computer Science",
+            "email": "email@gmail.com",
+            "linkedIn" : "https://in.linkedin.com/in/",
+            "clgPlacement" : "Infosys",
+            "imageSrc": "/logo192.png",
+            "designation" : "Senior Developer",
+            "organisation" : "Tata Consultancy Services",
+            "placeOrganisation" : "Mumbai",
+            "areaWork" : "Web Developer",
+            "achievement" : "Praiser"
+        },
+        {
+            "batch":"Batch 2022",
+            "name": "Name LastName",
+            "department": "Computer Science",
+            "email": "email@gmail.com",
+            "linkedIn" : "https://in.linkedin.com/in/",
+            "clgPlacement" : "Infosys",
+            "imageSrc": "/logo192.png",
+            "designation" : "Senior Developer",
+            "organisation" : "Tata Consultancy Services",
+            "placeOrganisation" : "Mumbai",
+            "areaWork" : "Web Developer",
+            "achievement" : "Praiser"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+.navbar{
+    background: transparent !important;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    min-height: 68px;
+    font-size: 20px;
+    font-family: 'Baloo Regular', sans-serif;
+    color: black !important;
+}
+.navbarIcon{
+    margin: 8px;
+    width: 25px;
+}
+
+.dropdown-menu{
+    background: #07709c;
+}
+.dropdown-menu .dropdown-item{
+    color: #fff !important;
+}
+.dropdown-menu .dropdown-item:hover{
+    background: #29c0ff;
+}

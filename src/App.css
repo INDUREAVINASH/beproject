@@ -1,0 +1,30 @@
+.App{
+    background: url("/public/Background.png");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    min-height: 83vh;
+}
+
+@font-face {
+    font-family: "Baloo Regular";
+    src: url("assets/fonts/Baloo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Tahoma Regular";
+    src: url("assets/fonts/tahoma.ttf");
+}
+
+@font-face {
+    font-family: "Tahoma Bold";
+    src: url("assets/fonts/tahomabd.ttf");
+}
+
+@font-face {
+    font-family: "Bahnschrift Bold";
+    src: url("assets/fonts/bahnschrift.ttf");
+}
